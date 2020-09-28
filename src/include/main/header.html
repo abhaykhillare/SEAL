@@ -14,6 +14,7 @@
 	.circleScaleBtn span {
 		z-index: 1;
 		position: relative;
+		outline: none;
 	}
 
 	.circleScaleBtn::before {
@@ -28,10 +29,12 @@
 		transition: opacity .4s cubic-bezier(.19,1,.22,1),transform .75s cubic-bezier(.19,1,.22,1);
 		background-color: hsl(243, 80%, 62%);
 		opacity: 0;
+		outline: none;
 	}
 
 	.circleScaleBtn:hover span {
 		color: hsl(222, 100%, 95%);
+		outline: none;
 	}
 
 	.circleScaleBtn:hover::before {
