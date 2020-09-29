@@ -4,6 +4,8 @@
 	border-radius: 6px;
 	position: relative;
 	overflow: hidden;
+	outline: none;
+	border: none;
 }
 
 .scl-overlay-from-left span {
